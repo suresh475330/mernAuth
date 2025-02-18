@@ -1,0 +1,105 @@
+.containerStyle {
+    /* background-color: #f0f0f0; */
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.headerStyle {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    background-color: #333;
+    color: white;
+}
+
+.headerStyle a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+.authLinksStyle {
+    display: flex;
+    gap: 20px;
+
+}
+
+.authLinksStyle>a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.mainStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+
+}
+
+.homeDesignImg {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.contentStyle {
+    text-align: center;
+}
+
+.contentStyle>h1 {
+    margin-bottom: 20px;
+    color: #111;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.contentStyle>p {
+    color: #444;
+    font-weight: 600;
+}
+
+
+
+/* Default styles for desktop */
+.contentContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* Styles for mobile screens */
+    .contentContainer {
+        flex-direction: column;
+    }
+}
